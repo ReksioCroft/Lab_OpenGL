@@ -47,7 +47,7 @@
     <ClCompile Include="src\loadShaders.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\02_02_primitive.cpp">
+    <ClCompile Include="src\01_04_poligoane_opengl_nou.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
