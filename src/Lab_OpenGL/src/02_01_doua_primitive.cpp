@@ -27,12 +27,11 @@ void CreateVBO(void)
       -0.8f, -0.8f, 0.0f, 1.0f,
        0.0f,  0.8f, 0.0f, 1.0f,
        0.8f, -0.8f, 0.0f, 1.0f,
-       -0.2f, -0.2f, 0.0f, 1.0f,
-       0.0f,  0.2f, 0.0f, 1.0f,
-       0.2f, -0.2f, 0.0f, 1.0f,
-      -0.8f, -0.8f, 0.0f, 1.0f,
-       0.0f,  0.8f, 0.0f, 1.0f,
-       0.8f, -0.8f, 0.0f, 1.0f
+
+       -0.9f, 0.0f, 0.0f, 1.0f,
+       0.9f, 0.0f, 0.0f, 1.0f,
+       -0.223f, -0.9f, 0.0f, 1.0f,
+       0.223f, 0.9f, 0.0f, 1.0f,
     };
 
     // culorile, ca atribute ale varfurilor
@@ -43,7 +42,11 @@ void CreateVBO(void)
       1.0f, 0.0f, 0.0f, 1.0f,
       0.0f, 1.0f, 0.0f, 1.0f,
       0.0f, 0.0f, 1.0f, 1.0f,
+
       1.0f, 1.0f, 0.0f, 1.0f,
+      0.3f, 1.0f, 1.0f, 1.0f,
+      1.0f, 0.0f, 1.0f, 1.0f,
+      0.3f, 0.0f, 1.0f, 1.0f,
     };
 
 
@@ -116,6 +119,7 @@ void RenderFunction(void)
     glEnable(GL_POINT_SMOOTH);
     glDrawArrays(GL_POINTS, 0, 12);
     glDisable(GL_POINT_SMOOTH);
+    glDrawArrays(GL_LINE_LOOP, 6, 4);
     glFlush();
 }
 void Cleanup(void)
