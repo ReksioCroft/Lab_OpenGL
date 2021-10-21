@@ -44,20 +44,14 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\02_01_doua_primitive.cpp">
+    <ClCompile Include="src\loadShaders.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\loadShaders.cpp">
+    <ClCompile Include="src\02_02_primitive.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="src\02_01_Shader.frag">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="src\02_01_Shader.vert">
-      <Filter>Source Files</Filter>
-    </None>
     <None Include="..\..\bin\x64\Debug\02_01_Shader.frag">
       <Filter>Resource Files</Filter>
     </None>

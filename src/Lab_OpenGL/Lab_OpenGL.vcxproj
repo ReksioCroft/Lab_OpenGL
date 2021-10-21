@@ -30,7 +30,7 @@
     <ClInclude Include="src\loadShaders.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\02_01_doua_primitive.cpp" />
+    <ClCompile Include="src\02_02_primitive.cpp" />
     <ClCompile Include="src\loadShaders.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -38,8 +38,6 @@
     <None Include="..\..\bin\x64\Debug\02_01_Shader.vert" />
     <None Include="..\..\bin\x64\Debug\02_02_Shader.frag" />
     <None Include="..\..\bin\x64\Debug\02_02_Shader.vert" />
-    <None Include="src\02_01_Shader.frag" />
-    <None Include="src\02_01_Shader.vert" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
